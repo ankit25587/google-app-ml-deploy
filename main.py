@@ -41,7 +41,7 @@ def api_predict():
 if __name__ == "__main__":
     app.run()
     
-    
+'''    
 import requests
 
 url = 'https://us-central1-optimal-mender-234015.cloudfunctions.net/predict_flower'
@@ -52,3 +52,4 @@ r = requests.post(url, json = {
 	"petal_width":10
 })
 print(r.text)
+'''
